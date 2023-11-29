@@ -1,0 +1,83 @@
+/* Start Footer Style */
+
+#footer {
+    background-color: var(--secondary-section-bg-color);
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 70px 50px 0 50px;
+    color: var(--white-color);
+    border-top: 1px solid #2f3038;
+}
+
+#footer article {
+    padding-right: 5%;
+    margin-bottom: 30px;
+}
+
+#footer h6 {
+    position: relative;
+    font-size: 15px;
+    line-height: 20px;
+    color: var(--white-color);
+    letter-spacing: 1px;
+    font-weight: var(--font-weight-semibold);
+    margin-bottom: 35px;
+    overflow: hidden;
+}
+
+#footer h6::after {
+    content: '';
+    position: absolute;
+    top: 9px;
+    right: 0;
+    width: 50%;
+    height: 1px;
+    background-color: var(--border-color);
+}
+
+#footer p {
+    font-size: 17px;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+
+#footer li {
+    margin-bottom: 15px;
+}
+
+#footer li > a {
+    letter-spacing: 1px;
+    width: fit-content;
+    font-weight: var(--font-weight-semibold);
+}
+
+#footer li > a:hover {
+    color: var(--white-color);
+    border-bottom: 2px solid var(--white-color);
+}
+
+#footer span:first-of-type {
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    font-weight: var(--font-weight-semibold);
+}
+
+#footer span a,
+#footer span:nth-of-type(2) {
+    color: hsla(0, 0%, 100%, 0.7);
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: var(--font-weight-normal);
+}
+
+#footer section {
+    margin-top: 80px;
+    padding: 40px 30px;
+    max-width: 150px;
+    background-color: var(--primary-color);
+    text-align: center;
+}
+
+/* End Footer Style */
